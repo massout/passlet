@@ -2,7 +2,7 @@
 
 void activate (GtkApplication *app, gpointer user_data);
 
-void addPass(GtkWidget *widget, gpointer data){
+void addPass(GtkWidget *widget, gpointer user_data){
     GtkWidget *window1 = gtk_window_new(GTK_WINDOW_TOPLEVEL);;
     GtkWidget *giris1 = gtk_entry_new();
     GtkWidget *giris2 = gtk_entry_new();
